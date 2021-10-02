@@ -301,12 +301,7 @@ bot.on("message", async(message) => {
   }
 
   if(message.content.startsWith(bot.prefix + "invite")){
-    if(message.author.id == "787021462619947018"){
-      message.author.send(`https://discord.com/oauth2/authorize?client_id=${bot.user.id}&scope=bot&permissions=8`);
-      message.reply("Regarde en mp ;)");
-    } else {
-      message.reply("Tu ne peux pas ! C'est un bot privé !")
-    }
+     message.reply(`https://discord.com/oauth2/authorize?client_id=${bot.user.id}&scope=bot&permissions=8`);
   }
 });
 
