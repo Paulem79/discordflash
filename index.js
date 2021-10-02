@@ -16,8 +16,8 @@ bot.on("ready", async() => {
   console.log("Bot prêt")
   bot.user.setStatus("online");
   let statuts = [
-    bot.guilds.cache.size + ` serveurs [${prefix}/help]`,
-    `${prefix}/help pour les commandes !`,
+    bot.guilds.cache.size + ` serveurs [${prefix}help]`,
+    `${prefix}help pour les commandes !`,
     "créé par PauLem79YT, Entreprise FlashBot ©"
   ]
   setInterval(function() {
